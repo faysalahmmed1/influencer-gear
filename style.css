@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 200%;
+    padding-left: 10%;
+}
+section{
+    display: flex;
+}
+.font{
+    font-size: 300%;
+}
+.flex{
+    width: 100%;
+    padding-left: 10%;
+}
+.flex img{
+    width:70%;
+    
+}
+.logos{
+    display:flex;
+   text-align-last: center;
+}
+.link{
+    text-decoration: none;
+    background-color:rgb(141, 218, 40) ;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.canter{
+    text-align: center;
+}
+
+.faysal-ahmmed{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-column-row: 24px;
+
+}
+.faysal{
+    box-shadow: 10px 10px 15px rgb(207, 196, 218);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+}
+.sari{
+    text-align-last: center;
+    background-color: rgb(111, 155, 67);
+    height: 200px;
+}
